@@ -1,11 +1,17 @@
 import React from 'react';
-import './App.css';
+
+// Styles
+import GlobalStyle from 'styles/global';
+import { Container } from './styles';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <span>Things of u</span>
-    </div>
+    <>
+      <GlobalStyle />
+      <Container className="App">
+        <span>Things of u</span>
+      </Container>
+    </>
   );
 };
 
