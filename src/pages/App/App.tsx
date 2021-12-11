@@ -7,6 +7,6 @@ const App: React.FC = () => {
       <span>Things of u</span>
     </div>
   );
-}
+};
 
 export default App;
