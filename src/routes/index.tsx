@@ -1,13 +1,16 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 
 // Pages
+import App from 'pages/App';
 import ProductList from 'pages/ProductList';
 
-const RoutesComponent: React.FC = () => (
+import { Routes, Route } from 'react-router-dom';
+
+const RoutesComponents: React.FC = () => (
   <Routes>
-    <Route path="/" element={<ProductList />} />
+    <Route path="/" element={<App />}>
+      <Route path="product-list" element={<ProductList />} />
+    </Route>
   </Routes>
 );
-
-export default RoutesComponent;
+export default RoutesComponents;
