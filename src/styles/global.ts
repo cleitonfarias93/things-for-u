@@ -21,8 +21,8 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
 
     // font-size default
-    font-size: 1.3rem;
-    line-height: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 
   #root {
