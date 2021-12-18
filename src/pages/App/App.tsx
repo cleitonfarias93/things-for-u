@@ -14,7 +14,7 @@ const App: React.FC = () => {
   return (
     <>
       <GlobalStyle />
-      <Container className="App">
+      <Container>
         <span>App</span>
         <Outlet />
       </Container>
